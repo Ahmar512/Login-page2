@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Pacifico', cursive;
+}
+.container{
+    height: 100vh;
+    background-color: #E5D4FF;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    background-color: #F1EAFF;
+    height: 350px;
+    width: 300px;
+    border-radius: 10px;
+}
+.card .title{
+    height: 80px;
+    background-color: #D0A2F7;
+    color: #fff;
+    font-weight: 400;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px 10px 0 0;
+}
+.card form{
+    padding: 30px 20px 25px 20px;
+}
+.card form .row{
+    background-color: #D0A2F7;
+    margin-bottom: 10px;
+    height: 40px;
+    display: grid;
+    grid-template-columns: 35px 225px;
+    border-radius: 10px
+}
+.card form .rowSubmit{
+    background-color:;
+    height: 40px;
+}
+.card form .rowSubmit input{
+    height: 100%;
+    width: 100%;
+    background-color: #D0A2F7;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.card form .row .icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.card form .row input{
+    border: none;
+    border-radius: 0 10px 10px 0 ;
+    padding-left: 10px;
+    cursor: pointer;
+}
+.card .signup{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card form .row input:hover{
+    
+}
+.card form .rowSubmit input:hover{
+    background-color: #E5D4FF;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+
